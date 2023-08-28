@@ -2,7 +2,7 @@
 
 ## Project Screenshot
 
-![Project Screenshot](./assets/images/screenshot.png)
+![Project Screenshot](./images/screenshot.png)
 
 ## About
 
