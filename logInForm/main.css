@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  font-weight: 300;
+  text-align: center;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+  color: #3ca9e2;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+a:focus,
+a:hover,
+a:link:focus,
+a:link:hover,
+a:visited:focus,
+a:visited:hover,
+a:active:focus,
+a:active:hover {
+  color: #329dd5;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.loginFormWrap {
+  background-color: #fff;
+  width: 35%;
+  margin: 30px auto;
+  text-align: center;
+  padding: 20px 0 0 0;
+  border-radius: 4px;
+  box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+}
+
+.loginForm {
+  padding: 60px 60px;
+}
+
+input {
+  width: 40%;
+  outline: none;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 30px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 0 0 0 10px;
+  margin: 0;
+  color: #8a8b8e;
+  border: 1px solid #c2c0ca;
+  font-style: normal;
+  font-size: 16px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: relative;
+  display: inline-block;
+  background: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border-color: #3ca9e2;
+}
+
+input[type="text"]:focus:invalid,
+input[type="email"]:focus:invalid {
+  color: #cc1e2b;
+  border-color: #cc1e2b;
+}
+
+input[type="text"]:valid ~ .validation span,
+input[type="email"]:valid ~ .validation span {
+  background: #0c0;
+  position: absolute;
+  border-radius: 6px;
+}
+
+.validation {
+  display: none;
+  position: absolute;
+  content: " ";
+  height: 60px;
+  width: 30px;
+  right: 15px;
+  top: 0px;
+}
