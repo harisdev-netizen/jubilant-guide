@@ -1,15 +1,18 @@
-# Project README
+# Project Repository
 
-## Project Screenshot
+Welcome to the repository for our project! This repository contains the necessary assets to showcase our project, including a screenshot and a live link.
 
+## Project Overview
+Our project aims to [briefly describe the purpose or goal of your project]. It [provide a high-level summary of your project's features, functionality, or benefits]. This README will guide you on how to access the project's live demonstration and view its screenshot.
+
+## Screenshot
 ![Project Screenshot](./images/screenshot.png)
 
-## About
+Above is a screenshot of our project's user interface, providing you with a visual preview of what the project looks like.
 
-This README.md file contains a screenshot of the created project. Due to the presence of multiple projects within this repository, it's not feasible to deploy it on platforms like GitHub Pages or Netlify. Therefore, a screenshot has been provided above to showcase the appearance and essence of the project.
+## Live Demo
+To interact with the project, you can access the live demo by clicking the link below:
 
-Please note that this is a static representation, and for a more interactive experience, it's recommended to clone and run the project locally on your machine. Refer to individual project directories for specific instructions on running each project.
+[**Project Live Demo**](http://harisdev.me/jubilant-guide/)
 
-## Contact
-
-For any inquiries or further details about the projects, feel free to reach out to the project contributors. Thank you for your understanding!
+Feel free to explore the project and experience its features firsthand. We appreciate any feedback or suggestions you might have!
